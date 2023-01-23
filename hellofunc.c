@@ -3,7 +3,10 @@
 
 void myPrintHelloMake(void) {
 
-  printf("Hello makefiles!\n");
+	for(int i=0; i<5; i++)
+	{
+      	  printf("Hello makefiles!\n");
+	}
 
   return;
 }
